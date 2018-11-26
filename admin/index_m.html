@@ -14,7 +14,7 @@
 <script type="text/javascript" src="words.js"></script>
  <style>
   .m .col .select-wrapper+label {
-   top: -26px;  
+   top: -26px;
   }
      .m span{
          font-size: 0.9em;
@@ -27,7 +27,7 @@
     function load(settings, onChange) {
         // example: select elements with id=key and class=value and insert value
        if (!settings) return;
-        $('.value').each(function () {            
+        $('.value').each(function () {
             var $key = $(this);
             var id = $key.attr('id');
             if ($key.attr('type') === 'checkbox') {
@@ -77,43 +77,27 @@
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s3">
-                    <input class="value" id="test1" type="checkbox" />
-                    <label for="test1" class="translate">test1</label>
-                </div>
-            </div>
-            <div class="row">
                 <div class="input-field col s12 m6 l4">
-                    <input class="value" id="myText" type="text">
-                    <label for="myText">Text</label>
-                    <span class="translate">Descriptions of the input field</span>
-                </div>
-                <div class="input-field col s12 m6 l4">
-                    <input type="number" class="value" id="test2" />
-                    <label for="test2" class="translate">Number</label>
+                    <input type="number" class="value" id="longitude" />
+                    <label for="longitude" class="translate">Longitude</label>
                     <!-- Important: label must come directly after input. Label is important. -->
-                    <span class="translate">test2</span>
+                    <span class="translate">Longitude</span>
                 </div>
                 <div class="input-field col s12 m6 l4">
-                    <input id="email" type="email" class="value validate">
-                    <label for="email" data-error="wrong" data-success="right">Email</label>
-                    <!--  You can add custom validation messages by adding either data-error or data-success attributes to your input field labels.-->
-                    <span class="translate">Verification input</span>
+                    <input type="number" class="value" id="latitude" />
+                    <label for="latitude" class="translate">Latitude</label>
+                    <!-- Important: label must come directly after input. Label is important. -->
+                    <span class="translate">Latitude</span>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12 m4">
-                    <select class="value" id="mySelect">
-                        <option value="auto" class="translate">Auto</option>
-                        <option value="manual" class="translate">Manual</option>
+                    <select class="value" id="type">
+                        <option value="diesel" class="translate">Diesel</option>
+                        <option value="gasoline" class="translate">Gasoline</option>
                     </select>
-                    <label for="mySelect" class="translate">My select</label>
+                    <label for="type" class="translate">Type</label>
                     <!-- Important: label must come directly after select. Label is important. -->
-                </div>
-                <div class="input-field col s12 m8">
-                    <i class="material-icons prefix">mode_edit</i>
-                    <textarea id="Textarea" class="value materialize-textarea"></textarea>
-                    <label for="Textarea">Message</label>
                 </div>
             </div>
             <div class="row">
