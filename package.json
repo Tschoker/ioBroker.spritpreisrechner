@@ -1,6 +1,6 @@
 {
   "name": "iobroker.spritpreisrechner",
-  "version": "0.6.0",
+  "version": "0.0.1",
   "description": "spritpreisrechner",
   "author": {
     "name": "Tschoker",
@@ -12,7 +12,7 @@
       "email": "josef.mikula80@gmail.com"
     }
   ],
-  "homepage": "https://github.com/ioBroker/ioBroker.spritpreisrechner",
+  "homepage": "https://github.com/Tschoker/ioBroker.spritpreisrechner",
   "license": "MIT",
   "keywords": [
     "ioBroker",
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ioBroker/ioBroker.spritpreisrechner"
+    "url": "https://github.com/Tschoker/ioBroker.spritpreisrechner"
   },
   "dependencies": {},
   "devDependencies": {
@@ -35,7 +35,7 @@
     "test": "node node_modules/mocha/bin/mocha --exit"
   },
   "bugs": {
-    "url": "https://github.com/ioBroker/ioBroker.spritpreisrechner/issues"
+    "url": "https://github.com/Tschoker/ioBroker.spritpreisrechner/issues"
   },
   "readmeFilename": "README.md"
 }
