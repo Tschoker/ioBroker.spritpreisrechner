@@ -41,8 +41,8 @@ const utils =    require(__dirname + '/lib/utils'); // Get common adapter utils
 // adapter will be restarted automatically every time as the configuration changed, e.g system.adapter.spritpreisrechner.0
 const adapter = new utils.Adapter('spritpreisrechner');
 
-/*Variable declaration, since ES6 there are let to declare variables. Let has a more clearer definition where 
-it is available then var.The variable is available inside a block and it's childs, but not outside. 
+/*Variable declaration, since ES6 there are let to declare variables. Let has a more clearer definition where
+it is available then var.The variable is available inside a block and it's childs, but not outside.
 You can define the same variable name inside a child without produce a conflict with the variable of the parent block.*/
 let variable = 1234;
 
@@ -96,9 +96,9 @@ function main() {
 
     // The adapters config (in the instance object everything under the attribute "native") is accessible via
     // adapter.config:
-    adapter.log.info('config test1: '    + adapter.config.test1);
-    adapter.log.info('config test1: '    + adapter.config.test2);
-    adapter.log.info('config mySelect: ' + adapter.config.mySelect);
+    adapter.log.info('config Longitude: '    + adapter.config.longitude);
+    adapter.log.info('config Latitude: '    + adapter.config.latitude);
+    adapter.log.info('config Type: ' + adapter.config.type);
 
 
     /**

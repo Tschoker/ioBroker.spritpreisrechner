@@ -34,9 +34,9 @@
         "icon": "spritpreisrechner.png",
         "materialize": true,
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.spritpreisrechner/master/admin/spritpreisrechner.png",
+        "extIcon": "https://raw.githubusercontent.com/Tschoker/ioBroker.spritpreisrechner/master/admin/spritpreisrechner.png",
         "keywords": ["spritpreisrechner", "vis", "GUI", "graphical", "scada"],
-        "readme": "https://github.com/ioBroker/ioBroker.spritpreisrechner/blob/master/README.md",
+        "readme": "https://github.com/Tschoker/ioBroker.spritpreisrechner/blob/master/README.md",
         "loglevel": "info",
         "type": "general",
         "license": "MIT",
@@ -44,8 +44,8 @@
         "restartAdapters": ["vis"]
     },
     "native": {
-        "latitude": 48.208763, //defaults to Vienna (St. Stephans Cathedral)
-        "longitude": 16.372509, //defaults to Vienna (St. Stephans Cathedral)
+        "latitude": 48.208763,
+        "longitude": 16.372509,
         "type": "diesel"
     },
     "objects": [
